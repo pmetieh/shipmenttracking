@@ -1,0 +1,277 @@
+body {
+    background-color:white;
+    margin-left: 200px;
+    margin-right: 100px;
+    
+    }
+
+ #main{
+     margin: auto;
+ }
+
+    ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 1000px;
+        height: 43px;
+    /*background-image: url('http://localhost:90/lhdi/images/bitmap.png');*/
+     padding-bottom: 10px;
+}
+
+ul > li {
+    /*display: inline;*/
+    float:  left;
+    position: relative;
+    /*background-color: olive;*/
+    /*background-image: url('http://localhost:90/lhdi/images/bitmap.png');*/
+    /*height: 20px;
+    width: 150px;*/
+    margin-right: 5px;
+   /* margin-bottom: 3px;*/
+    padding: 0px;
+   
+}
+
+
+ul li > ul {display: none;}
+
+
+  ul li:hover > ul {
+      display: block;
+     width: 150px;
+      position: absolute;
+      top: 30px;
+  }
+
+
+div#top_header{
+  position: relative;
+  width: 100%; 
+  height: 200px;
+ overflow: hidden; 
+  margin: 0px;  
+  z-index: 2;
+}
+
+p{
+    text-align: left;
+    width:93%;
+    color: grey;
+}
+h3{
+    text-align: left;
+}
+
+ul li > a{
+  /*background-image: url('http://localhost:90/lhdi/images/bitmap.png');*/
+  color: white;
+  text-decoration: none;  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+    background-color: navy;
+} /* first level links*/
+
+ ul li ul li > a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+     width: 150px;
+    /*background-image: url('http://localhost:90/lhdi/images/bitmap.png');*/
+    background-color: navy;
+    margin-bottom: 3px;
+}
+
+ul li ul li:hover > a{
+    background-color: black;
+}
+
+div#footer{
+   width: 1000px; 
+   height: 30px; 
+   background-color: #a9a9a9;
+   text-align: center;
+    color: #00008b;
+   
+   
+}
+div#footer h6{
+    /*padding-top:2px;
+    margin-top: 20px;*/
+   font-size: 0.5em;
+   vertical-align: top;
+   
+}
+
+div#footer{
+     clear: both;
+}
+
+.changeImage{
+    position: absolute;
+    float: left;
+    left: 0px;
+    top: 0px;
+    width: 1000px;
+    height:200px;
+    z-index: 10;
+}
+
+h4{
+    text-align:left;
+    margin: 0;
+    padding-top: 3px;
+}
+
+h5{
+    text-align:left;
+    margin: 0;
+    padding-top: 3px;
+}
+
+.show{
+    display: block;
+}
+div#values{
+    display: none;
+}
+div#expertise{
+    display: none;
+}
+
+.listDisplay{
+    display: block;
+}
+
+#serve{
+    display: none;
+}
+
+#experience{
+    display: none;
+}
+#commitment{
+    display:none;
+}
+.hidden{
+    
+    display: none;
+    z-index: 0;
+}
+
+.rightCol{
+    float: left;
+    width: 700px;
+    /*background-color: lightcoral;*/
+}
+.leftCol {
+    float: left;
+    width: 299px;
+   /* background-color: firebrick;*/
+   text-align: right;
+}
+img#logo{
+     position: absolute;
+     top: 10px;
+     left: 210px;
+     width: 50px;
+     height: 50px;
+     z-index: 3;
+
+ }
+
+#emailLink{
+   /* position: absolute;
+    top: 10px;
+    left: 210px;
+    width: 50px;*/
+    height: 30px;
+    background-image: url("../images/tn_email1.jpg") !important;
+    text-decoration: none;
+    z-index: 3;/**/
+
+}
+span#logoText{
+    position: absolute;
+    top: 20px;
+    left: 220px;
+    font-size: 14px;
+    font-weight: bold;
+    z-index:4;
+    
+}
+
+.bulletList{
+    list-style: square;
+    padding-left: -5px;
+    text-align: left;
+
+
+}
+
+.textwrap{
+    
+    float: left;
+    border: olive solid thin;
+    margin-right: 3px;
+}
+
+.contentLeft{
+    float: left; 
+    width: 48%;
+    margin-right: 10px;
+}
+
+.contentRight{
+    float: left; 
+    width: 48%;
+
+}
+
+#commInvLeft{
+    float: left;
+    width: 45%;
+    margin-right: 40px;
+    border: thin navy solid;
+}
+
+#commInvRight{
+    float: left;
+    width: 45%;
+    border: thin navy solid;
+}
+
+.invHeaderItems{
+    width: 250px;
+    border: thin navy solid;
+    margin-left: 20px;
+
+}
+
+div#lineItems {
+    width: 1000px;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: thin solid blue;
+
+}
+
+.invoiceButtons{
+    background-color:
+    navy; color: white;
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+.profile{
+    height: 350px;
+    border: thin blue solid;
+}
