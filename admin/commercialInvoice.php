@@ -33,7 +33,18 @@ if(isset($_POST['submit']))
     //save the data to the database
     //create new connection object
     $invCon = new Connection();
+    $invInsertQry = 'insert into commercialInvoice(custId, waybill, invoiceDate,consignee, consignor, fob, insurance, freight, cif) '.
+                    ' values(?,?,?,?,?,?,?,?, ?)';
+    $stmt = $invCon->mysql->prepare($invInsertQry);
 
+    if(!$stmt)
+    {
+        alert('Failed to create invoice');
+    }
+    else{
+
+        //$stmt->bind_param()
+    }
 
 }
 
